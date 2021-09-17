@@ -1,0 +1,88 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app__container {
+  background-color: white;
+  padding: 2rem 1rem;
+}
+
+.reservation__header {
+  margin-bottom: 1rem;
+}
+.reservation__container {
+  display: flex;
+  height: 700px;
+}
+
+.reservation-left__container {
+  padding-right: 1rem;
+  border-right: 1px solid #444;
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reservation__card,
+.customer-card__container {
+  padding: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+
+.input__container {
+  display: flex;
+}
+
+.input__container input,
+.customer-food__input input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.reservation-right__container {
+  flex: 0.75;
+  margin-left: 1rem;
+}
+
+.customer-card__container {
+  width: 100%;
+}
+
+.customer-food__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-food__list {
+  flex: 0.7;
+}
+.customer-food__input {
+  display: flex;
+  flex: 0.3;
+  max-height: 2rem;
+  align-items: center;
+}
+
+.food-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.food-list-item {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
